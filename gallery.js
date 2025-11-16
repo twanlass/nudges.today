@@ -24,6 +24,7 @@
   const lightbox = document.getElementById('lightbox');
   const lightboxImage = document.getElementById('lightboxImage');
   const lightboxClose = document.getElementById('lightboxClose');
+  const searchHint = document.getElementById('searchHint');
 
   // Initialize the gallery
   async function init() {
@@ -208,12 +209,14 @@
     filterImages(searchInput.value);
   }
 
-  // Toggle search clear button visibility
+  // Toggle search clear button and hint visibility
   function toggleSearchClear() {
     if (searchInput.value.trim()) {
       searchClearBtn.style.display = 'flex';
+      searchHint.style.display = 'none';
     } else {
       searchClearBtn.style.display = 'none';
+      searchHint.style.display = 'flex';
     }
   }
 
@@ -324,6 +327,15 @@
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && lightbox.classList.contains('active')) {
         closeLightbox();
+      }
+    });
+
+    // Focus search input on "/" key
+    document.addEventListener('keydown', (e) => {
+      // Only activate if not already typing in an input/textarea
+      if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        searchInput.focus();
       }
     });
   }

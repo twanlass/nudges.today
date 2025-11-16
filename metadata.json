@@ -856,7 +856,7 @@
   "nudge-86.png": {
     "category": "light",
     "formFactors": [
-      "tooltip"
+      "popover"
     ],
     "features": [
       "image"
