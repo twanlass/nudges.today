@@ -267,7 +267,7 @@
     ]
   },
   "nudge-28.png": {
-    "category": "dark",
+    "category": "light",
     "product": "ChatGPT",
     "formFactors": [
       "tooltip"
@@ -935,6 +935,7 @@
     "features": [
       "buttons",
       "image"
-    ]
+    ],
+    "featured": true
   }
 }
