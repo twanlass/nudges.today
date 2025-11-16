@@ -1,0 +1,13 @@
+{
+  "name": "nudges-gallery",
+  "version": "1.0.0",
+  "description": "A dynamic image gallery for nudges.today",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "npx serve .",
+    "start": "npm run build && npm run dev"
+  },
+  "keywords": [],
+  "author": "Tyler Wanlass",
+  "license": "MIT"
+}

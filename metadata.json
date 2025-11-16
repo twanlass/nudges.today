@@ -1,0 +1,940 @@
+{
+  "nudge-01.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-02.png": {
+    "category": "dark",
+    "product": "Clay",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-03.png": {
+    "category": "dark",
+    "product": "Linear",
+    "formFactors": [
+      "popover",
+      "inline"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-04.png": {
+    "category": "dark",
+    "product": "Linear",
+    "formFactors": [
+      "popover",
+      "inline"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-05.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-06.png": {
+    "category": "dark"
+  },
+  "nudge-07.png": {
+    "category": "dark",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-08.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-09.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-10.png": {
+    "category": "dark",
+    "product": "Spline",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-11.png": {
+    "category": "dark",
+    "product": "Spline",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-12.png": {
+    "category": "dark",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-13.png": {
+    "category": "dark",
+    "product": "Dribbble",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-14.png": {
+    "category": "light",
+    "product": "Paste",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-15.png": {
+    "category": "dark",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons"
+    ]
+  },
+  "nudge-16.png": {
+    "category": "light",
+    "product": "Chameleon",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-17.png": {
+    "category": "light",
+    "product": "June",
+    "formFactors": [
+      "banner",
+      "inline"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-18.png": {
+    "category": "light",
+    "product": "June",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-19.png": {
+    "category": "dark",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-20.png": {
+    "category": "light",
+    "product": "Chameleon",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-21.png": {
+    "category": "light",
+    "product": "NYT",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-22.png": {
+    "category": "dark",
+    "formFactors": [
+      "banner",
+      "inline"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-23.png": {
+    "category": "light",
+    "product": "Sheets",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-24.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-25.png": {
+    "category": "dark",
+    "product": "Framer",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-26.png": {
+    "category": "dark",
+    "product": "Anydistance",
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-27.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-28.png": {
+    "category": "dark",
+    "product": "ChatGPT",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-29.png": {
+    "category": "dark",
+    "product": "Google",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-30.png": {
+    "category": "dark",
+    "product": "Miro",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-31.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons"
+    ]
+  },
+  "nudge-32.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-33.png": {
+    "category": "light",
+    "product": "Gmail",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-34.png": {
+    "category": "light",
+    "product": "Userflow",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-35.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-36.png": {
+    "category": "dark",
+    "product": "GitHub",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-37.png": {
+    "category": "light",
+    "product": "KAYAK",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-38.png": {
+    "category": "dark",
+    "product": "Chili Piper",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-39.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-40.png": {
+    "category": "light",
+    "product": "Duolingo",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-41.png": {
+    "category": "light",
+    "product": "Gmail",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-42.png": {
+    "category": "dark",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-43.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-44.png": {
+    "category": "light",
+    "product": "Userflow",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "image"
+    ]
+  },
+  "nudge-45.png": {
+    "category": "dark",
+    "product": "ClickUp",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-46.png": {
+    "category": "light",
+    "product": "Todoist",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-47.png": {
+    "category": "light",
+    "product": "Miro",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-48.png": {
+    "category": "light",
+    "product": "Google",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-49.png": {
+    "category": "light",
+    "product": "Gmail",
+    "formFactors": [
+      "popover"
+    ]
+  },
+  "nudge-50.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-51.png": {
+    "category": "dark",
+    "product": "Notion",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-52.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-53.png": {
+    "category": "dark",
+    "product": "Todoist",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-54.png": {
+    "category": "dark",
+    "product": "ChatGPT",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-55.png": {
+    "category": "dark",
+    "product": "Spline",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-56.png": {
+    "category": "light",
+    "product": "Typeform VideoAsk",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-57.png": {
+    "category": "dark",
+    "product": "Linear",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-58.png": {
+    "category": "light",
+    "product": "Attio",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons"
+    ]
+  },
+  "nudge-59.png": {
+    "category": "dark",
+    "formFactors": [
+      "inline"
+    ],
+    "features": [
+      "image"
+    ]
+  },
+  "nudge-60.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "stepper",
+      "buttons"
+    ]
+  },
+  "nudge-61.png": {
+    "category": "light",
+    "product": "ChatGPT",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-62.png": {
+    "category": "light",
+    "product": "Gong",
+    "formFactors": [
+      "inline"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-63.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-64.png": {
+    "category": "dark",
+    "product": "Slack",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-65.png": {
+    "category": "dark",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-66.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-67.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-68.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-69.png": {
+    "category": "light",
+    "product": "Ramp",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-70.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-71.png": {
+    "category": "light",
+    "product": "Frigade",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-72.png": {
+    "category": "dark",
+    "product": "Chameleon",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-73.png": {
+    "category": "light",
+    "product": "Amazon",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-74.png": {
+    "category": "light",
+    "product": "Notion",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-75.png": {
+    "category": "light",
+    "product": "Loom",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-76.png": {
+    "category": "light",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-77.png": {
+    "category": "light",
+    "formFactors": [
+      "tooltip"
+    ]
+  },
+  "nudge-78.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-79.png": {
+    "category": "dark",
+    "product": "Dribbble",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-80.png": {
+    "category": "dark",
+    "product": "Vercel V0",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-81.png": {
+    "category": "dark",
+    "product": "GitHub",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-82.png": {
+    "category": "light",
+    "product": "Ortto",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-83.png": {
+    "category": "dark",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-84.png": {
+    "category": "light",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "stepper",
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-85.png": {
+    "category": "light",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-86.png": {
+    "category": "light",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "image"
+    ]
+  },
+  "nudge-87.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-88.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-89.png": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-90.png": {
+    "category": "dark",
+    "product": "Granola",
+    "formFactors": [
+      "inline"
+    ],
+    "features": [
+      "image"
+    ]
+  },
+  "nudge-91.png": {
+    "category": "light",
+    "product": "Recraft",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-80-1.png": {
+    "category": "light",
+    "product": "Amplitude",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-92.png": {
+    "category": "light",
+    "product": "Amplitude",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata Editor - Nudges</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="admin-header">
+        <div class="admin-header-content">
+            <h1>Metadata Editor</h1>
+            <div class="admin-header-actions">
+                <div class="stats">
+                    <span id="editedCount">0</span> / <span id="totalCount">0</span> edited
+                </div>
+                <button id="copyBtn" class="copy-btn">Copy to Clipboard</button>
+                <a href="index.html" class="back-link">Back to Gallery</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="instructions">
+        <p><strong>How to use:</strong> Click any image to edit its metadata → Click "Copy to Clipboard" → Paste into <code>metadata.json</code> → Run <code>npm run build</code></p>
+    </div>
+
+    <main class="admin-grid" id="imageGrid">
+        <!-- Grid items will be dynamically loaded -->
+    </main>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Metadata</h2>
+                <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="image-preview">
+                    <img id="previewImage" src="" alt="Preview">
+                    <div class="image-filename" id="previewFilename"></div>
+                </div>
+
+                <form id="metadataForm">
+                    <div class="form-group">
+                        <label>Category</label>
+                        <div class="toggle-buttons">
+                            <button type="button" class="toggle-btn" data-value="light">Light</button>
+                            <button type="button" class="toggle-btn" data-value="dark">Dark</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="productInput">Product Name</label>
+                        <input type="text" id="productInput" placeholder="e.g., Amplitude, Notion, Figma" list="productSuggestions">
+                        <datalist id="productSuggestions"></datalist>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox-grid" id="formFactorsGrid">
+                            <label><input type="checkbox" value="modal"> Modal</label>
+                            <label><input type="checkbox" value="tooltip"> Tooltip</label>
+                            <label><input type="checkbox" value="popover"> Popover</label>
+                            <label><input type="checkbox" value="banner"> Banner</label>
+                            <label><input type="checkbox" value="slideout"> Slideout</label>
+                            <label><input type="checkbox" value="toast"> Toast</label>
+                            <label><input type="checkbox" value="inline"> Inline</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="checkbox-grid" id="featuresGrid">
+                            <label><input type="checkbox" value="stepper"> Stepper</label>
+                            <label><input type="checkbox" value="buttons"> Buttons</label>
+                            <label><input type="checkbox" value="image"> Image</label>
+                            <label><input type="checkbox" value="video"> Video</label>
+                            <label><input type="checkbox" value="progress-bar"> Progress Bar</label>
+                            <label><input type="checkbox" value="checklist"> Checklist</label>
+                            <label><input type="checkbox" value="form-input"> Form Input</label>
+                            <label><input type="checkbox" value="dropdown"> Dropdown</label>
+                            <label><input type="checkbox" value="tabs"> Tabs</label>
+                            <label><input type="checkbox" value="icon"> Icon</label>
+                            <label><input type="checkbox" value="avatar"> Avatar</label>
+                            <label><input type="checkbox" value="badge"> Badge</label>
+                        </div>
+                    </div>
+
+                    <div class="modal-actions">
+                        <button type="button" id="cancelBtn" class="btn-secondary">Cancel</button>
+                        <button type="submit" class="btn-primary">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <span id="toastMessage"></span>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

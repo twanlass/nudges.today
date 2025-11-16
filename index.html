@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nudges 🤌</h1>
+        <div class="header-center">
+            <div class="search-container">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <input type="text" class="search-input" placeholder="Filter...">
+                <button class="search-clear" id="searchClear" style="display: none;">
+                    <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 7L7 17M7 7L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="header-filters">
+                <div class="filter-button-group">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="light">Light</button>
+                    <button class="filter-btn" data-filter="dark">Dark</button>
+                </div>
+                <div class="dropdown" id="attributesDropdown">
+                    <button class="dropdown-btn" id="dropdownBtn">
+                        <span id="dropdownLabel">Tags</span>
+                        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <div class="dropdown-section">
+                            <div id="formFactorOptions"></div>
+                            <div id="featureOptions"></div>
+                        </div>
+                        <div class="dropdown-actions">
+                            <button class="dropdown-clear" id="clearAttributesBtn">Clear All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="mailto:hello@tdub.co?subject=New Nudge suggestion&body=Attached is a screenshot of a sweet nudge you should add to the site 🤘" class="suggest-btn">
+                <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Suggest
+            </a>
+        </div>
+    </header>
+
+    <section class="intro">
+        <p>This is my personal swipe file of Nudges – those little popovers, tooltips, and modals you see in almost every software product. I'm a little obsessed. Wanna add a Nudge to your own product? Check out <a href="https://amplitude.com/guides-and-surveys" target="_blank" rel="noopener noreferrer">Amplitude</a> (I'm biased, I helped build it).</p>
+    </section>
+
+    <div class="no-results" id="noResults" style="display: none;">
+        <div class="no-results-content">
+            <svg class="no-results-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="no-results-text">Bummer dude, no nudges found</p>
+            <img src="assets/the-dude.gif" alt="The Dude" class="no-results-gif">
+            <button class="clear-filters-btn" id="clearFiltersBtn">Clear Filters</button>
+        </div>
+    </div>
+
+    <main class="gallery" id="gallery">
+        <!-- Gallery items will be dynamically loaded by gallery.js -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Built from scratch with <a href="https://code.claude.com/" target="_blank">Claude Code</a> and <a href="https://warp.dev" target="_blank">Warp</a>.</p>
+            <p>Screenshots, design, words, and code © 2025 <a href="https://tyler.cv?r=nudges" target="_blank">Tyler Wanlass</a>.</p>
+            <p>You smell really nice.</p>
+            <p>✌️</p>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" id="lightboxClose">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <img id="lightboxImage" src="" alt="">
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
