@@ -924,7 +924,8 @@
     "features": [
       "buttons",
       "image"
-    ]
+    ],
+    "featured": true
   },
   "nudge-92.png": {
     "category": "light",
