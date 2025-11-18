@@ -938,5 +938,16 @@
       "image"
     ],
     "featured": true
+  },
+  "nudge-93.png": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
