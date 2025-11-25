@@ -960,5 +960,16 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-95.mp4": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "video"
+    ]
   }
 }

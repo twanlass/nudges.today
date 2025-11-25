@@ -425,7 +425,8 @@ header h1 {
     color: inherit;
 }
 
-.gallery-item img {
+.gallery-item img,
+.gallery-item video {
     width: 100%;
     height: auto;
     display: block;
@@ -665,7 +666,8 @@ footer {
     display: flex;
 }
 
-.lightbox img {
+.lightbox img,
+.lightbox video {
     max-width: 75vw;
     max-height: 75vh;
     object-fit: contain;

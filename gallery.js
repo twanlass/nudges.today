@@ -23,6 +23,7 @@
   const clearAttributesBtn = document.getElementById('clearAttributesBtn');
   const lightbox = document.getElementById('lightbox');
   const lightboxImage = document.getElementById('lightboxImage');
+  const lightboxVideo = document.getElementById('lightboxVideo');
   const lightboxClose = document.getElementById('lightboxClose');
   const searchHint = document.getElementById('searchHint');
 
@@ -82,10 +83,17 @@
       <span>Built with Amplitude ↗</span>
     </a>` : '';
 
+    // Check if this is a video file
+    const isVideo = image.path.toLowerCase().endsWith('.mp4');
+
+    const mediaElement = isVideo
+      ? `<video src="${image.path}" autoplay loop muted playsinline loading="lazy" data-lightbox-src="${image.path}" data-is-video="true"></video>`
+      : `<img src="${image.path}" alt="${altText}" loading="lazy" data-lightbox-src="${image.path}">`;
+
     return `
       <div class="gallery-item${featuredClass}" data-id="${image.id}">
         ${featuredBadge}
-        <img src="${image.path}" alt="${altText}" loading="lazy" data-lightbox-src="${image.path}">
+        ${mediaElement}
       </div>
     `;
   }
@@ -307,8 +315,9 @@
 
     // Lightbox functionality
     galleryContainer.addEventListener('click', (e) => {
-      if (e.target.tagName === 'IMG' && e.target.dataset.lightboxSrc) {
-        openLightbox(e.target.dataset.lightboxSrc);
+      if ((e.target.tagName === 'IMG' || e.target.tagName === 'VIDEO') && e.target.dataset.lightboxSrc) {
+        const isVideo = e.target.dataset.isVideo === 'true';
+        openLightbox(e.target.dataset.lightboxSrc, isVideo);
       }
     });
 
@@ -320,6 +329,10 @@
     lightbox.addEventListener('click', closeLightbox);
 
     lightboxImage.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+
+    lightboxVideo.addEventListener('click', (e) => {
       e.stopPropagation();
     });
 
@@ -341,8 +354,16 @@
   }
 
   // Open lightbox
-  function openLightbox(imageSrc) {
-    lightboxImage.src = imageSrc;
+  function openLightbox(mediaSrc, isVideo = false) {
+    if (isVideo) {
+      lightboxImage.style.display = 'none';
+      lightboxVideo.style.display = 'block';
+      lightboxVideo.src = mediaSrc;
+    } else {
+      lightboxVideo.style.display = 'none';
+      lightboxImage.style.display = 'block';
+      lightboxImage.src = mediaSrc;
+    }
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -351,6 +372,9 @@
   function closeLightbox() {
     lightbox.classList.remove('active');
     lightboxImage.src = '';
+    lightboxImage.style.display = 'block';
+    lightboxVideo.src = '';
+    lightboxVideo.style.display = 'none';
     document.body.style.overflow = '';
   }
 

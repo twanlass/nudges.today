@@ -5,10 +5,10 @@ const IMAGES_DIR = './images';
 const OUTPUT_FILE = './data.json';
 const METADATA_FILE = './metadata.json';
 
-// Function to get all image files from the images directory
+// Function to get all image and video files from the images directory
 function getImageFiles(dir) {
   const files = fs.readdirSync(dir);
-  const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg'];
+  const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.mp4'];
 
   return files
     .filter(file => {
