@@ -951,7 +951,7 @@
     ]
   },
   "nudge-94.png": {
-    "category": "light",
+    "category": "dark",
     "product": "Claude",
     "formFactors": [
       "modal"
@@ -973,7 +973,7 @@
     ]
   },
   "nudge-96.png": {
-    "category": "light",
+    "category": "dark",
     "product": "ChatGPT",
     "formFactors": [
       "popover"
