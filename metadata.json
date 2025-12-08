@@ -993,5 +993,16 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-98.mp4": {
+    "category": "light",
+    "product": "Gmail",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "video"
+    ]
   }
 }
