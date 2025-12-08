@@ -971,5 +971,27 @@
       "buttons",
       "video"
     ]
+  },
+  "nudge-96.png": {
+    "category": "light",
+    "product": "ChatGPT",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-97.png": {
+    "category": "dark",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
