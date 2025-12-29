@@ -1004,5 +1004,25 @@
       "buttons",
       "video"
     ]
+  },
+  "nudge-99.jpg": {
+    "category": "dark",
+    "product": "Ramp",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons"
+    ]
+  },
+  "nudge-100.png": {
+    "category": "dark",
+    "product": "Dropbox",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "buttons"
+    ]
   }
 }
