@@ -1024,5 +1024,16 @@
     "features": [
       "buttons"
     ]
+  },
+  "nudge-101.jpg": {
+    "category": "dark",
+    "product": "Cursor",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }

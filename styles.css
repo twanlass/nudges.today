@@ -373,7 +373,7 @@ header h1 {
     flex: 1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 24px;
     padding: 2rem;
     max-width: 1400px;
     margin: 0 auto;
