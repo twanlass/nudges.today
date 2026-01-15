@@ -1045,5 +1045,16 @@
     "features": [
       "buttons"
     ]
+  },
+  "nudge-103.jpg": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
