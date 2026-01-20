@@ -1056,5 +1056,16 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-104.jpg": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
