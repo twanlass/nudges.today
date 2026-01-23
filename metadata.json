@@ -1067,5 +1067,12 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-105.jpg": {
+    "category": "dark",
+    "product": "Slack",
+    "formFactors": [
+      "tooltip"
+    ]
   }
 }
