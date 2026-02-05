@@ -1106,5 +1106,17 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-109.mp4": {
+    "category": "light",
+    "product": "FigJam",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "video",
+      "buttons",
+      "stepper"
+    ]
   }
 }
