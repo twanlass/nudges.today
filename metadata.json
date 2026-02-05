@@ -1074,5 +1074,37 @@
     "formFactors": [
       "tooltip"
     ]
+  },
+  "nudge-106.jpg": {
+    "category": "light",
+    "product": "Dia",
+    "formFactors": [
+      "banner"
+    ],
+    "features": [
+      "image"
+    ]
+  },
+  "nudge-107.jpg": {
+    "category": "light",
+    "product": "Atlassian Rovo",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-108.jpg": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "banner"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
