@@ -1118,5 +1118,27 @@
       "buttons",
       "stepper"
     ]
+  },
+  "nudge-110.jpg": {
+    "category": "dark",
+    "product": "Granola",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-111.jpg": {
+    "category": "light",
+    "product": "Atlassian Rovo",
+    "formFactors": [
+      "tooltip"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
