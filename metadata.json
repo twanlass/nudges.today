@@ -1140,5 +1140,16 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-112.jpg": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
