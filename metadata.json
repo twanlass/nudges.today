@@ -1151,5 +1151,16 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-113.jpg": {
+    "category": "light",
+    "product": "Render",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
