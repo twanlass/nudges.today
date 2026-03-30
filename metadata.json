@@ -1162,5 +1162,71 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-114.jpg": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-115.jpg": {
+    "category": "dark",
+    "product": "Warp",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-116.jpg": {
+    "category": "light",
+    "product": "shadcn/ui",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-117.jpg": {
+    "category": "dark",
+    "product": "Notion",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-118.jpg": {
+    "category": "dark",
+    "product": "Glean",
+    "formFactors": [
+      "popover"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-119.png": {
+    "category": "dark",
+    "product": "Notion",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
