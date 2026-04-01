@@ -1228,5 +1228,29 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-120.png": {
+    "category": "dark",
+    "product": "Linear",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "image"
+    ],
+    "featured": false
+  },
+  "nudge-121.png": {
+    "category": "dark",
+    "product": "Notion",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image",
+      "stepper"
+    ],
+    "featured": false
   }
 }
