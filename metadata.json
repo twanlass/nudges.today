@@ -1239,5 +1239,18 @@
       "image"
     ],
     "featured": false
+  },
+  "nudge-121.png": {
+    "category": "dark",
+    "product": "Notion",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image",
+      "stepper"
+    ],
+    "featured": false
   }
 }
