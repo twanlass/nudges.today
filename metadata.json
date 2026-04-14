@@ -1228,5 +1228,13 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-120.png": {
+    "category": "light",
+    "product": "Claude",
+    "formFactors": [
+      "banner"
+    ],
+    "features": []
   }
 }
