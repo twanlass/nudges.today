@@ -1236,5 +1236,39 @@
       "banner"
     ],
     "features": []
+  },
+  "nudge-121.png": {
+    "category": "dark",
+    "product": "Granola",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-122.png": {
+    "category": "light",
+    "product": "Figma",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
+  },
+  "nudge-123.png": {
+    "category": "light",
+    "product": "Google Sheets",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image",
+      "stepper"
+    ]
   }
 }
