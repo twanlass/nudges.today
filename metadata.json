@@ -1270,5 +1270,16 @@
       "image",
       "stepper"
     ]
+  },
+  "nudge-124.png": {
+    "category": "dark",
+    "product": "Codex",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image"
+    ]
   }
 }
