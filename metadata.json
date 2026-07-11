@@ -1281,5 +1281,16 @@
       "buttons",
       "image"
     ]
+  },
+  "nudge-125.png": {
+    "category": "dark",
+    "product": "Supabase",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "badge"
+    ]
   }
 }
