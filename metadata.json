@@ -1292,5 +1292,17 @@
       "buttons",
       "badge"
     ]
+  },
+  "nudge-126.png": {
+    "category": "dark",
+    "product": "Claude",
+    "formFactors": [
+      "modal"
+    ],
+    "features": [
+      "buttons",
+      "image",
+      "badge"
+    ]
   }
 }
